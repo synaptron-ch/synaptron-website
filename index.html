@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080b0b" />
+  <meta name="description" content="Synaptron develops Operational Reasoning Systems for industrial organizations. MOS is the first system built from this discipline." />
+  <meta property="og:title" content="Synaptron — Operational Reasoning Systems" />
+  <meta property="og:description" content="A new discipline for how industrial organizations observe, decide and learn." />
+  <meta property="og:type" content="website" />
+  <title>Synaptron — Operational Reasoning Systems</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="matrix" aria-hidden="true"></canvas>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Synaptron home" data-home>
+      <span class="sigil"><i></i><i></i><i></i></span>
+      <span>SYNAPTRON</span>
+    </a>
+    <button class="menu" aria-label="Toggle navigation"><span></span><span></span></button>
+    <nav>
+      <a href="#index" data-open-index>Index</a><a href="#stewardship" data-card="stewardship">Mandate</a><a href="#contact" data-card="contact">Contact</a><a href="#legal" data-open-legal>Legal</a><button class="language-switch" type="button" aria-label="Sprache wechseln">DE</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Operational Reasoning Systems</p>
+        <p class="pretitle">Industry has more data than ever.</p>
+        <h1>And less<br>understanding<br>of itself.</h1>
+        <p class="lead">A new discipline for how industrial<br>organizations observe, decide and learn.</p>
+        <div class="actions"><a href="#philosophy" class="primary">Begin observation <b>◇</b></a><a href="#mos" class="secondary">Explore MOS <b>◇</b></a></div>
+      </div>
+
+      <div class="system" id="system" aria-label="Interactive operational reasoning system">
+        <div class="dial-ticks"></div><div class="dial-scale"><span>0</span><span>⅓</span><span>⅔</span><span>1</span></div>
+        <div class="radials"><i></i><i></i><i></i><i></i></div>
+        <div class="orbit o1"></div><div class="orbit o2"></div><div class="orbit o3"></div>
+        <div class="geometry g1"></div><div class="geometry g2"></div>
+        <div class="microdata md1"><b>REFERENCE</b><span>STD / R01</span><span>STATE / STABLE</span><span>Δ / 0.003</span></div>
+        <div class="microdata md2"><b>OBSERVATION</b><span>SIGNAL / LIVE</span><span>BOUNDARY / SET</span><span>CONF / 0.87</span></div>
+        <div class="core"><div class="factory"><i></i><i></i><i></i><i></i><i></i></div><small>INDUSTRIAL<br>TRUTH</small></div>
+        <div class="node n1"><span>♙</span><label>Human<br><small>Experience</small></label></div>
+        <div class="node n2"><span>⚖</span><label>Standards<br><small>& Principles</small></label></div>
+        <div class="node n3"><span>◫</span><label>Data<br><small>Signals</small></label></div>
+        <div class="node n4"><span>⚙</span><label>Process<br><small>Reality</small></label></div>
+        <div class="node n5"><span>◎</span><label>Outcomes<br><small>Truth</small></label></div>
+        <div class="node n6"><span>✣</span><label>AI Models<br><small>Reasoning</small></label></div>
+        <div class="node n7"><span>→</span><label>Decision<br><small>& Action</small></label></div>
+        <div class="node n8"><span>◈</span><label>Intent<br><small>Decision Logic</small></label></div>
+      </div>
+    </section>
+
+    <section class="triad"><span>Observe</span><i>·</i><span>Distinguish</span><i>·</i><span>Reason</span></section>
+
+    <section class="manifesto section numbered" id="philosophy">
+      <span class="section-no">I</span><p class="eyebrow">The premise</p>
+      <div class="premise-intro"><h2>Every organization thinks.</h2><p>Very few understand how.</p></div>
+      <div class="reasoning-instrument" aria-label="Information, uncertainty and understanding model">
+        <div class="instrument-head"><span>MODEL 01</span><b>INFORMATION DOES NOT EQUAL UNDERSTANDING</b><small>OPERATIONAL REASONING</small></div>
+        <div class="signal-field">
+          <div class="signal-source"><small>INPUT</small><strong>INFORMATION</strong><div class="signal-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><p>More data<br>More reports<br>More activity</p></div>
+          <div class="uncertainty-field"><small>UNRESOLVED</small><div class="uncertainty-ring"><span>?</span></div><strong>UNCERTAINTY</strong><p>What changed?<br>What remained stable?<br>What is evidence?</p></div>
+          <div class="decision-gate"><small>GATE</small><div class="gate-line"><i></i><b>◈</b><i></i></div><strong>DECISION</strong><p>Action occurs<br>whether understanding<br>exists or not.</p></div>
+          <div class="understanding-state"><small>REQUIRED STATE</small><div class="state-core"><span>◎</span></div><strong>UNDERSTANDING</strong><p>Uncertainty reduced<br>before action.</p></div>
+        </div>
+        <div class="instrument-conclusion"><span>OBSERVATION</span><i></i><p>Operational excellence is not created by collecting more information.</p><b>→</b><p>It is created by reducing uncertainty before making decisions.</p></div>
+      </div>
+    </section>
+
+    <section class="principles section numbered" id="principles">
+      <span class="section-no">II</span><p class="eyebrow">First principles</p><div class="plate-title"><h2>What remains true.</h2><p>Principles that survive contact with reality.</p></div>
+      <ol class="principle-list">
+        <li><span>01</span><p>Every deviation is the consequence of one or more changes relative to a stable reference state.</p></li>
+        <li><span>02</span><p>Observation begins where assumptions end.</p></li>
+        <li><span>03</span><p>Information exists only to improve the next decision.</p></li>
+        <li><span>04</span><p>Routine processes define reality.</p></li>
+        <li><span>05</span><p>Organizations fail when they cannot distinguish signal from noise.</p></li>
+      </ol>
+    </section>
+
+    <section class="architecture section numbered" id="architecture">
+      <span class="section-no">III</span><p class="eyebrow">The hidden architecture of operational reality</p>
+      <div class="plate-title"><h2>The visible problem is rarely the whole problem.</h2><p>It is the point at which the hidden structure becomes observable.</p></div>
+      <div class="architecture-map">
+        <article><span>01</span><h3>Relation</h3><p>Nothing becomes a deviation by itself. It becomes one through comparison.</p></article>
+        <article><span>02</span><h3>Causation</h3><p>Every changed outcome requires at least one changed condition.</p></article>
+        <article><span>03</span><h3>Correspondence</h3><p>Local patterns can reveal the architecture of the wider system.</p></article>
+        <article><span>04</span><h3>Rhythm</h3><p>A single measurement describes a state. A sequence reveals a system.</p></article>
+        <article><span>05</span><h3>Polarity</h3><p>What is and what is not define one another.</p></article>
+        <article><span>06</span><h3>Observation</h3><p>The observer is part of the system being observed.</p></article>
+        <article><span>07</span><h3>Transformation</h3><p>Understanding is proven only through a different, stable state.</p></article>
+      </div>
+    </section>
+
+    <section class="research section numbered" id="research">
+      <span class="section-no">IV</span><p class="eyebrow">The observatory</p><div class="plate-title"><h2>Research begins where the existing model no longer explains reality.</h2><p>Questions before answers.</p></div>
+      <div class="observatory-plate">
+        <div class="plate-head"><span>OBSERVATORY 04</span><b>OPEN FIELD OF INQUIRY</b><small>STATUS / IN PROGRESS</small></div>
+        <div class="observatory-model">
+          <div class="obs-orbit oo1"></div><div class="obs-orbit oo2"></div><div class="obs-orbit oo3"></div>
+          <div class="obs-core"><span>?</span><small>UNEXPLAINED<br>REALITY</small></div>
+          <div class="obs-point op1"><i></i><span>Operational<br>Reasoning</span></div>
+          <div class="obs-point op2"><i></i><span>Observation<br>Theory</span></div>
+          <div class="obs-point op3"><i></i><span>Industrial<br>Cognition</span></div>
+          <div class="obs-point op4"><i></i><span>Decision<br>Systems</span></div>
+          <div class="obs-point op5"><i></i><span>Organizational<br>Entropy</span></div>
+          <div class="obs-point op6"><i></i><span>Manufacturing<br>Operating Systems</span></div>
+        </div>
+        <div class="plate-foot"><span>METHOD</span><i></i><p>Observation in practice</p><b>OPEN CONNECTIONS INDICATE UNRESOLVED RELATIONSHIPS</b></div>
+      </div>
+    </section>
+
+    <section class="mos section numbered" id="mos">
+      <span class="section-no">V</span>
+      <p class="eyebrow">The operational vessel</p><div class="plate-title"><h2>MOS</h2><p>The first Operational Reasoning System.</p></div>
+      <div class="vessel-plate">
+        <div class="plate-head"><span>INSTRUMENT 05</span><b>MANUFACTURING OPERATING SYSTEM</b><small>DEVIATION → KNOWLEDGE</small></div>
+        <div class="mos-instrument">
+          <div class="mos-band reality-band"><span class="band-label">I / OPERATIONAL REALITY</span>
+            <div class="mos-cell reference-cell"><small>STABLE REFERENCE</small><b>Routine</b><div class="baseline"><i></i><i></i><i></i><i></i><i></i></div><p>Standard · Expected state · Repetition</p></div>
+            <div class="mos-transfer"><i></i><span>Δ</span><i></i></div>
+            <div class="mos-cell change-cell"><small>CHANGED CONDITION</small><b>Change</b><div class="change-pulse">◇</div><p>Known · Unknown · Suspected</p></div>
+            <div class="mos-transfer warning"><i></i><span>!</span><i></i></div>
+            <div class="mos-cell deviation-cell"><small>VISIBLE SIGNAL</small><b>Deviation</b><div class="deviation-trace"><i></i><i></i><i></i><i></i><i></i></div><p>Reality no longer matches reference</p></div>
+          </div>
+          <div class="mos-band reasoning-band"><span class="band-label">II / OPERATIONAL REASONING</span>
+            <div class="observation-prism"><small>OBSERVATION</small><b>Separate fact from assumption</b><div class="prism-core">◇</div></div>
+            <div class="comparison-field"><div><small>IS</small><span>Where · What · When · Extent</span></div><i>≠</i><div><small>IS NOT</small><span>Boundary · Contrast · Exclusion</span></div><b>COMPARISON</b></div>
+            <div class="evidence-field"><small>EVIDENCE</small><span>Change analysis</span><span>Stable comparison</span><span>Clean point</span><span>Signal integrity</span></div>
+            <div class="uncertainty-vessel"><div class="uv-rings"><i></i><i></i><span>37%</span></div><small>RESIDUAL UNCERTAINTY</small><b>Reduced before decision</b></div>
+          </div>
+          <div class="mos-band transformation-band"><span class="band-label">III / OPERATIONAL TRANSFORMATION</span>
+            <div class="decision-threshold"><small>GATE</small><span>◇</span><b>Decision</b><p>Evidence sufficient?</p></div>
+            <div class="mos-flow-line"><i></i><b>→</b><i></i></div>
+            <div class="action-field"><small>CONTROLLED CHANGE</small><b>Action</b><p>Owner · Time · Evidence</p></div>
+            <div class="mos-flow-line"><i></i><b>→</b><i></i></div>
+            <div class="effect-field"><small>PROOF</small><b>Effectiveness</b><div class="effect-signal"><i></i><i></i><i></i></div><p>Different and stable state</p></div>
+            <div class="learning-return"><span>↺</span><div><small>LEARNING</small><b>Rewrite the reference</b><p>New routine · New standard · Preserved knowledge</p></div></div>
+          </div>
+        </div>
+        <div class="plate-foot"><span>PRINCIPLE</span><i></i><p>A deviation becomes knowledge only when learning changes the next routine.</p><a href="#contact" data-card="contact">BEGIN OBSERVATION ◇</a></div>
+      </div>
+    </section>
+
+    <section class="collaboration section numbered" id="experiment">
+      <span class="section-no">VI</span><p class="eyebrow">The shared experiment</p><div class="plate-title"><h2>One real problem. Before any promise.</h2><p>Proof of Philosophy.</p></div>
+      <div class="experiment-plate"><div class="plate-head"><span>EXPERIMENT 06</span><b>MUTUAL OBSERVATION</b><small>NO OBLIGATION</small></div>
+        <div class="experiment-model"><div class="observer oa"><span>OBSERVER A</span><i>◉</i><small>ORGANIZATION</small></div><div class="sightline sl1"></div><div class="problem-core"><span>REAL</span><strong>PROBLEM</strong><i>◇</i></div><div class="module-ring"><span>WORKING<br>MODULE</span></div><div class="sightline sl2"></div><div class="observer ob"><span>OBSERVER B</span><i>◉</i><small>SYNAPTRON</small></div></div>
+        <div class="experiment-choice"><span>DIFFERENT REALITY<br><small>Respectfully separate</small></span><i>←</i><b>JOINT OBSERVATION</b><i>→</i><span>SHARED REALITY<br><small>Continue together</small></span></div>
+        <div class="plate-foot"><span>MEASURE</span><i></i><p>Shared understanding — not a signed contract.</p><b>PROOF OF PHILOSOPHY</b></div>
+      </div>
+    </section>
+
+    <section class="ai section numbered" id="mirror">
+      <span class="section-no">VII</span><p class="eyebrow">The mirror</p><div class="plate-title"><h2>AI can extend observation. It cannot inherit accountability.</h2><p>Reduce uncertainty. Preserve decision.</p></div>
+      <div class="mirror-plate"><div class="plate-head"><span>OPTICAL MODEL 07</span><b>ARTIFICIAL INTELLIGENCE</b><small>ACCOUNTABILITY BOUNDARY ACTIVE</small></div>
+        <div class="mirror-model"><div class="reality-beam"><small>OPERATIONAL REALITY</small><span>· · ◇ · · · ○ ·</span></div><div class="lens"><i></i><b>AI</b><small>PATTERN<br>AMPLIFICATION</small></div><div class="revealed"><small>REVEALED</small><span>COMPARISON</span><span>CONTRADICTION</span><span>PATTERN</span></div><div class="account-line"><b>BOUNDARY</b></div><div class="human-eye"><i>◉</i><b>HUMAN</b><small>DECISION +<br>ACCOUNTABILITY</small></div></div>
+        <div class="plate-foot"><span>LIMIT</span><i></i><p>Observation may be extended. Accountability cannot be delegated.</p><b>HUMAN DECISION</b></div>
+      </div>
+    </section>
+
+    <section class="stewardship section numbered" id="stewardship">
+      <span class="section-no">VIII</span><p class="eyebrow">The mandate</p><div class="plate-title"><h2>You do not pay us to solve yesterday's problem.</h2><p>You mandate us to preserve the ability to understand tomorrow's.</p></div>
+      <div class="mandate-plate"><div class="plate-head"><span>MANDATE 08</span><b>OPERATIONAL STEWARDSHIP</b><small>TWO ECONOMIC LOGICS</small></div>
+        <div class="mandate-model">
+          <div class="mandate-side discovery"><small>LEG I / DISCOVERY</small><h3>Proof of Philosophy</h3><div class="mandate-core mc-free"><span>ONE REAL<br>PROBLEM</span><b>NO FEE</b></div><ul><li>Working module</li><li>Inside the real environment</li><li>Joint observation</li><li>Mutual decision</li></ul><p>No commitment before value exists.</p></div>
+          <div class="mandate-axis"><span>DO WE SEE<br>THE SAME<br>REALITY?</span><i></i><b>◇</b><i></i><small>NO → SEPARATE<br>YES → CONTINUE</small></div>
+          <div class="mandate-side paid"><small>LEG II / CONTINUITY</small><h3>Stewardship Mandate</h3><div class="mandate-core mc-paid"><span>SYSTEM<br>CAPABILITY</span><b>PAID</b></div><div class="steward-rings"><span>System Stewardship</span><span>System Architecture</span><span>Operational Intervention</span></div><p>Preserve and extend the organization's ability to reason.</p></div>
+        </div>
+        <div class="standards-field"><small>REFERENCE FIELD</small><span>ISO 9001</span><i>·</i><span>IATF 16949</span><i>·</i><span>ISO 13485</span><i>·</i><span>ISO/IEC 27001</span><i>·</i><span>TISAX</span><i>·</i><span>ISO 80079-36</span></div>
+        <div class="plate-foot"><span>BOUNDARY</span><i></i><p>Responsibility can be supported. Accountability remains with the organization.</p><b>MANAGEMENT SYSTEM STEWARDSHIP</b></div>
+      </div>
+    </section>
+
+    <section class="contact section threshold" id="contact"><p class="eyebrow">The threshold</p><div class="plate-title"><h2>Bring one real problem.</h2><p>No presentation is required.</p></div>
+      <div class="contact-vessel"><div class="plate-head"><span>ENTRY FIELD</span><b>BEGIN OBSERVATION</b><small>NO SALES PROCESS</small></div>
+        <div class="contact-field">
+          <div class="contact-observation"><small>OBSERVABLE REALITY</small><h3>Describe what is happening.<br>Before explaining why.</h3><div class="contact-signals"><span><b>01</b>Phenomenon</span><span><b>02</b>Impact</span><span><b>03</b>Boundary</span><span><b>04</b>First observation</span></div><p>No deck. No requirement specification. One real operational problem.</p></div>
+          <div class="contact-threshold"><div class="contact-halo"><i></i><i></i><b>◇</b></div><span>THE THRESHOLD</span><small>OBSERVE BEFORE INTERPRETING</small></div>
+          <div class="contact-channel"><small>DIRECT CHANNEL</small><h3>Begin with the problem.</h3><p>Write the first observable facts. Nothing more is required.</p><div class="contact-links"><span>SYNAPTRON GmbH</span><a href="mailto:contact@synaptron.ch?subject=One%20real%20problem">contact@synaptron.ch</a><a href="tel:+41765122851">+41 76 512 28 51</a></div><a class="contact-begin" href="mailto:contact@synaptron.ch?subject=One%20real%20problem">BEGIN OBSERVATION <b>◇</b></a></div>
+        </div>
+        <div class="plate-foot"><span>QUESTION</span><i></i><p>What if organizations could actually reason?</p><b>ONE REAL PROBLEM</b></div>
+      </div>
+    </section>
+  </main>
+  <aside class="card-ui" aria-hidden="true"><button class="card-close" aria-label="Close card">×</button><button class="card-prev" aria-label="Previous knowledge plate">←</button><span class="card-counter">01 / 08</span><button class="card-next" aria-label="Next knowledge plate">→</button></aside>
+  <aside class="index-panel" id="index" aria-hidden="true"><button class="index-close" aria-label="Close index">×</button><p class="eyebrow">Synaptron Index</p><h2>Knowledge Plates</h2><div class="index-grid">
+    <button data-card="philosophy"><small>I</small><span>The Premise</span><b>Information ≠ Understanding</b></button>
+    <button data-card="principles"><small>II</small><span>First Principles</span><b>Stable reference</b></button>
+    <button data-card="architecture"><small>III</small><span>Hidden Architecture</span><b>Seven relations</b></button>
+    <button data-card="research"><small>IV</small><span>The Observatory</span><b>Open inquiry</b></button>
+    <button data-card="mos"><small>V</small><span>Operational Vessel</span><b>MOS</b></button>
+    <button data-card="experiment"><small>VI</small><span>Shared Experiment</span><b>Proof of Philosophy</b></button>
+    <button data-card="mirror"><small>VII</small><span>The Mirror</span><b>Artificial Intelligence</b></button>
+    <button data-card="stewardship"><small>VIII</small><span>The Mandate</span><b>Operational Stewardship</b></button>
+  </div></aside>
+  <aside class="legal-panel" id="legal" aria-hidden="true"><button class="legal-close" aria-label="Close legal information">×</button>
+    <div class="legal-head"><p class="eyebrow">Synaptron Legal</p><h2>Entity &amp; Privacy</h2><div class="legal-tabs"><button class="active" data-legal-tab="entity">Legal Entity</button><button data-legal-tab="privacy">Privacy</button></div></div>
+    <article class="legal-sheet active" data-legal-sheet="entity">
+      <div class="legal-code">LEGAL / 01</div><h3>Provider Information</h3>
+      <div class="legal-grid"><section><small>LEGAL ENTITY</small><p><strong>SYNAPTRON GmbH</strong><br>Etzelstrasse 51b<br>8840 Einsiedeln<br>Switzerland</p></section><section><small>REPRESENTED BY</small><p>Jaroslaw Lukas Pluschke<br>Shareholder and Managing Director<br>with sole signature authority</p></section><section><small>REGISTRATION</small><p>Commercial Register Canton Schwyz<br>CH-130.4.035.924-0<br>UID: CHE-174.837.043</p></section><section><small>CONTACT</small><p><a href="mailto:jaroslaw.pluschke@synaptron.ch">jaroslaw.pluschke@synaptron.ch</a><br><a href="tel:+41765122851">+41 76 512 28 51</a></p></section></div>
+      <p class="legal-note">The company is registered in Einsiedeln, Canton Schwyz, Switzerland.</p>
+    </article>
+    <article class="legal-sheet" data-legal-sheet="privacy">
+      <div class="legal-code">LEGAL / 02</div><h3>Privacy Notice</h3>
+      <div class="privacy-copy"><section><small>01 / CONTROLLER</small><p>SYNAPTRON GmbH, Etzelstrasse 51b, 8840 Einsiedeln, Switzerland. Privacy enquiries may be sent to <a href="mailto:jaroslaw.pluschke@synaptron.ch">jaroslaw.pluschke@synaptron.ch</a>.</p></section><section><small>02 / WEBSITE ACCESS</small><p>When this website is accessed, the hosting infrastructure may technically process IP address, date and time, requested resource, referrer, browser information and operating system. This data is used to provide the website, maintain security and diagnose technical faults.</p></section><section><small>03 / CONTACT</small><p>If you contact us by email or telephone, we process the information you provide in order to respond and to manage the resulting communication or business relationship.</p></section><section><small>04 / COOKIES &amp; ANALYTICS</small><p>This website currently uses no analytics, advertising trackers or non-essential cookies. No profiling or automated individual decision-making takes place through this website.</p></section><section><small>05 / SERVICE PROVIDERS &amp; TRANSFERS</small><p>Technical hosting and email providers may process data on our behalf. Where data is processed outside Switzerland, appropriate safeguards are used as required by applicable data protection law.</p></section><section><small>06 / RETENTION &amp; RIGHTS</small><p>Personal data is retained only as long as required for the stated purpose or by law. Subject to applicable law, you may request access, correction, deletion, restriction or portability and may object to processing.</p></section><section><small>07 / SECURITY &amp; CHANGES</small><p>We use appropriate technical and organisational safeguards. This notice may be updated when the website or its data processing changes.</p></section></div>
+      <p class="legal-note">Version: 12 July 2026 · Governed primarily by the Swiss Federal Act on Data Protection.</p>
+    </article>
+  </aside>
+  <script src="app.js"></script>
+</body>
+</html>
